@@ -1,5 +1,5 @@
 // normalize default styles
-@import "normalize";
+@import "./normalize";
 
 // // Bootstrap
 // @import "bootstrap/functions";
@@ -9,10 +9,17 @@
 // @import "bootstrap/grid";
 
 // variables
-@import "variables";
+@import "./variable";
 
 // common styles
-@import "layout";
-@import "global";
-@import "typography";
-@import "icons";
+@import "./layout";
+@import "./global";
+@import "./typography";
+@import "./icons";
+@import "./variable";
+
+
+// Sections/pages
+@import "./Pages/header";
+@import "./Pages/product";
+@import "./Pages/aboutus";
